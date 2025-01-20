@@ -13,7 +13,7 @@
 <p>The cannon has only 10 charges. After they run out, the cannon will become unusable. To replenish the charge, take the discharged portal cannon in your left hand (additional) and the "Quantum Transport Solution" in the main one, press the right mouse button, and wait.<p>
 <h3 align="center">mod review</h3>
 <a href="https://youtu.be/Ys3kiq5wHVg?si=vsooIBHvgRnZZfik" target="_blank">
-  <img src='https://i.ytimg.com/vi/Ys3kiq5wHVg/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAVzk2hekVrQr477bbNPaBfKCzUBA', width="50%">
+  <img src='https://i.ytimg.com/vi/Ys3kiq5wHVg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDBlFVMH-WfE-L9hQkW4w2tflRzYw', width="50%">
 </a>
 <h3 align="center">How and where to download it?</h3>
 <p>You can download the mod on <a href="https://modrinth.com/mod/rick-and-morty-portal-gun" target="_blank">modrinth</a></p>
