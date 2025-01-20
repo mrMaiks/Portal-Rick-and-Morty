@@ -1,0 +1,9 @@
+{
+  "parent": "rick_and_morty:custom/crystall",
+  "textures": {
+    "all": "rick_and_morty:blocks/crystal",
+    "particle": "rick_and_morty:blocks/crystal",
+    "0": "rick_and_morty:blocks/crystal"
+  },
+  "render_type": "translucent"
+}

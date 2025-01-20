@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": ""
+      },
+      "name": "default"
+    },
+    "portal_gun_rick": {
+      "map": {
+        "2": "portal_gun_rick"
+      },
+      "name": "portal_gun_rick"
+    },
+    "empty": {
+      "map": {
+        "2": "empty_gun"
+      },
+      "name": "empty"
+    }
+  }
+}

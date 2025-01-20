@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "  8"
+  ],
+  "key": {
+    "1": {
+      "item": "rick_and_morty:quantum_transport_solution"
+    },
+    "3": {
+      "item": "minecraft:iron_block"
+    },
+    "4": {
+      "item": "rick_and_morty:mathematicalcalculations"
+    },
+    "5": {
+      "item": "rick_and_morty:memorycard"
+    },
+    "8": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "rick_and_morty:portalgun",
+    "count": 1
+  }
+}

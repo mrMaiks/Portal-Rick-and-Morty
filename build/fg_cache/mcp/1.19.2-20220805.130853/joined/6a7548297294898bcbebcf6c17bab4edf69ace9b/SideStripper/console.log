@@ -1,0 +1,9 @@
+JVM:         D:\programms\MCreator fot mine 1.19.2\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "C:\Users\mrmai\MCreatorWorkspaces\Portal_gun\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\AccessTransformer\output.jar", "--output", "C:\Users\mrmai\MCreatorWorkspaces\Portal_gun\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\SideStripper\output.jar", "--data", "C:\Users\mrmai\MCreatorWorkspaces\Portal_gun\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\SideStripper\string_data.sas"
+Classpath:   C:\Users\mrmai\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.6\mergetool-1.1.6-fatjar.jar
+Working Dir: C:\Users\mrmai\MCreatorWorkspaces\Portal_gun\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  C:\Users\mrmai\MCreatorWorkspaces\Portal_gun\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\AccessTransformer\output.jar
+Output: C:\Users\mrmai\MCreatorWorkspaces\Portal_gun\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\SideStripper\output.jar
+Data:   C:\Users\mrmai\MCreatorWorkspaces\Portal_gun\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\SideStripper\string_data.sas

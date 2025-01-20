@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mushroom_fields",
+  "features": "rick_and_morty:greencrystal",
+  "step": "underground_ores"
+}

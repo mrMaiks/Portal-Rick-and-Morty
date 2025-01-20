@@ -1,0 +1,691 @@
+{
+  "mod_elements": [
+    {
+      "name": "Portalgun",
+      "type": "item",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalgun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/item/PortalgunItem.java",
+          "src/main/resources/assets/rick_and_morty/models/item/portalgun.json"
+        ]
+      }
+    },
+    {
+      "name": "Portalgui",
+      "type": "gui",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/client/gui/PortalguiScreen.java",
+          "src/main/java/net/mcreator/rick_and_morty/network/PortalguiButtonMessage.java",
+          "src/main/java/net/mcreator/rick_and_morty/world/inventory/PortalguiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Guiaddportal",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guiaddportal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/GuiaddportalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Teleportplayerwithportal",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleportplayerwithportal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/TeleportplayerwithportalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenportalguiPriNazhatiiKlavishi",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "openportalgui_pri_nazhatii_klavishi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/OpenportalguiPriNazhatiiKlavishiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Openportalgui",
+      "type": "keybind",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "openportalgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/network/OpenportalguiMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Spawn_portal_with_gun",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_portal_with_gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/Spawn_portal_with_gunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumTransportSolution",
+      "type": "item",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_transport_solution",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rick_and_morty/models/item/quantum_transport_solution.json",
+          "src/main/java/net/mcreator/rick_and_morty/item/QuantumTransportSolutionItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RickAndMortyPortal",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rick_and_morty_portal",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Greencrystall",
+      "type": "item",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greencrystall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/item/GreencrystallItem.java",
+          "src/main/resources/assets/rick_and_morty/models/item/greencrystall.json"
+        ]
+      }
+    },
+    {
+      "name": "Mathematicalcalculations",
+      "type": "item",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mathematicalcalculations",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rick_and_morty/models/item/mathematicalcalculations.json",
+          "src/main/java/net/mcreator/rick_and_morty/item/MathematicalcalculationsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Memorycard",
+      "type": "item",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memorycard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/item/MemorycardItem.java",
+          "src/main/resources/assets/rick_and_morty/models/item/memorycard.json"
+        ]
+      }
+    },
+    {
+      "name": "Quanummixtake",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quanummixtake",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/recipes/brewing/QuanummixtakeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Memorycardtrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memorycardtrade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Memcardcraft",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memcardcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rick_and_morty/recipes/memcardcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Craftportalgun",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftportalgun",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rick_and_morty/recipes/craftportalgun.json"
+        ]
+      }
+    },
+    {
+      "name": "Greencrystal",
+      "type": "block",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greencrystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/world/features/ores/GreencrystalFeature.java",
+          "src/main/resources/assets/rick_and_morty/models/block/greencrystal.json",
+          "src/main/resources/assets/rick_and_morty/blockstates/greencrystal.json",
+          "src/main/resources/data/rick_and_morty/forge/biome_modifier/greencrystal_biome_modifier.json",
+          "src/main/java/net/mcreator/rick_and_morty/block/GreencrystalBlock.java",
+          "src/main/resources/assets/rick_and_morty/models/item/greencrystal.json"
+        ]
+      }
+    },
+    {
+      "name": "Dischargedportalgun",
+      "type": "item",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dischargedportalgun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rick_and_morty/models/item/dischargedportalgun.json",
+          "src/main/java/net/mcreator/rick_and_morty/item/DischargedportalgunItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Portalgundestroy",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalgundestroy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/PortalgundestroyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumTransportSolutionPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_transport_solution_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/QuantumTransportSolutionPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "If10",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/If10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Energyportalgun",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energyportalgun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/client/screens/EnergyportalgunOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "If9",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/If9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "If8",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/If8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "If7",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/If7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "If6",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/If6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "If5",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/If5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "If4",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/If4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "If3",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/If3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "If2",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/If2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "If1",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/If1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gui",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/procedures/GuiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Portalsrick",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalsrick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rick_and_morty/entity/PortalsrickEntity.java",
+          "src/main/java/net/mcreator/rick_and_morty/client/renderer/PortalsrickRenderer.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "portal_name",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "quantity",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "10.0"
+    },
+    {
+      "name": "coordinate",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "item.rick_and_morty.quantum_transport_solution": "§2Квантовый транспортный раствор",
+      "itemGroup.tabrick_and_morty_portal": "Rick And Morty Portal",
+      "item.rick_and_morty.dischargedportalgun": "§2Портальная пушка",
+      "item.rick_and_morty.memorycard": "§8Карта памяти",
+      "gui.rick_and_morty.portalgui.dimension": "id измерения",
+      "item.rick_and_morty.mathematicalcalculations": "§fМатематические расчеты",
+      "block.rick_and_morty.greencrystal": "§2Зеленный кристал",
+      "gui.rick_and_morty.portalgui.XYZ": "~ ~ ~",
+      "item.rick_and_morty.portalgun": "§2Портальная пушка",
+      "key.rick_and_morty.openportalgui": "Открытие портальной пушки",
+      "entity.rick_and_morty.portalsrick": "Портал",
+      "item.rick_and_morty.greencrystall": "§2Зеленый кристал"
+    },
+    "en_us": {
+      "item.rick_and_morty.quantum_transport_solution": "§2Quantum Transport Solution",
+      "itemGroup.tabrick_and_morty_portal": "Rick And Morty Portal",
+      "item.rick_and_morty.dischargedportalgun": "§2Discharged portal gun",
+      "item.rick_and_morty.memorycard": "§8Memory card",
+      "gui.rick_and_morty.portalgui.dimension": "id измерения",
+      "item.rick_and_morty.mathematicalcalculations": "§fMathematical calculations",
+      "block.rick_and_morty.greencrystal": "§2Green crystal",
+      "gui.rick_and_morty.portalgui.XYZ": "~ ~ ~",
+      "item.rick_and_morty.portalgun": "§2Портальная пушка",
+      "key.rick_and_morty.openportalgui": "Открытия портальной пушки",
+      "entity.rick_and_morty.portalsrick": "Portal",
+      "item.rick_and_morty.greencrystall": "§2Green Crystal"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rick_and_morty",
+    "modName": "Portal_gun",
+    "version": "1.0.2",
+    "description": "В этом моде, я просто делаю всякую непонятную дичь)",
+    "author": "m41ksuka (aka MediAkuLa)",
+    "websiteURL": "https://vk.com/mr.maiks",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "sub on my youtube! https://www.youtube.com/channel/UCS9oJ5R11ffqL-uleF_BWag",
+    "modElementsPackage": "net.mcreator.rick_and_morty",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

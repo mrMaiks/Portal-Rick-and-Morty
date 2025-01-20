@@ -1,0 +1,7 @@
+{
+  "parent": "rick_and_morty:custom/portal_gun_rick",
+  "textures": {
+    "2": "rick_and_morty:blocks/portal_gun_rick",
+    "particle": "rick_and_morty:items/portal_gun_rick"
+  }
+}

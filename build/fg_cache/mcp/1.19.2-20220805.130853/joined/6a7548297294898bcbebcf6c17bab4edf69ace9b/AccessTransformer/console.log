@@ -1,0 +1,6 @@
+JVM:         D:\programms\MCreator fot mine 1.19.2\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "C:\Users\mrmai\MCreatorWorkspaces\Portal_gun\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\rename\output.jar", "--outJar", "C:\Users\mrmai\MCreatorWorkspaces\Portal_gun\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\AccessTransformer\output.jar", "--atFile", "C:\Users\mrmai\MCreatorWorkspaces\Portal_gun\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\mrmai\AppData\Local\Temp\FG_ats_9076671046833582023.cfg"
+Classpath:   C:\Users\mrmai\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working Dir: C:\Users\mrmai\MCreatorWorkspaces\Portal_gun\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

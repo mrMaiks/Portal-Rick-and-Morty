@@ -1,0 +1,7 @@
+{
+  "parent": "rick_and_morty:custom/math",
+  "textures": {
+    "0": "rick_and_morty:blocks/math_list",
+    "particle": "rick_and_morty:items/math_list"
+  }
+}

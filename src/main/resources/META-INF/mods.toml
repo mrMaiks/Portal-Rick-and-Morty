@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="rick_and_morty"
+version="1.0.2"
+displayName="Portal_gun"
+credits="sub on my youtube! https://www.youtube.com/channel/UCS9oJ5R11ffqL-uleF_BWag"
+displayURL="https://vk.com/mr.maiks"
+authors="m41ksuka (aka MediAkuLa)"
+description="В этом моде, я просто делаю всякую непонятную дичь)"
+
+[[dependencies.rick_and_morty]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
