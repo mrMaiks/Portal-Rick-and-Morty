@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 1,
     "texture": "empty_gun",
     "customModelName": "portal_gun_rick:empty",
+    "customProperties": {},
+    "states": [],
     "name": "§2Discharged portal gun",
     "rarity": "EPIC",
     "creativeTab": {

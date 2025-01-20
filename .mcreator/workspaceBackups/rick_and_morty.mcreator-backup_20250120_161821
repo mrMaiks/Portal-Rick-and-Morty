@@ -625,6 +625,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "10.0"
+    },
+    {
+      "name": "coordinate",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
     }
   ],
   "sound_elements": [],

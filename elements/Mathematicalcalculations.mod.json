@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 1,
     "texture": "math_list",
     "customModelName": "math:default",
+    "customProperties": {},
+    "states": [],
     "name": "§fMathematical calculations",
     "rarity": "UNCOMMON",
     "creativeTab": {

@@ -1,9 +1,9 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 176,
+    "width": 188,
     "height": 166,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
@@ -15,8 +15,8 @@
         "data": {
           "image": "portal_gui.png",
           "use1Xscale": true,
-          "x": 1,
-          "y": 0
+          "x": 0,
+          "y": -10
         }
       },
       {
@@ -26,8 +26,8 @@
           "name": "dimension",
           "width": 120,
           "height": 20,
-          "x": 154,
-          "y": 138
+          "x": 153,
+          "y": 134
         }
       },
       {
@@ -39,8 +39,8 @@
           "onClick": {
             "name": "Guiaddportal"
           },
-          "x": 189,
-          "y": 187
+          "x": 187,
+          "y": 185
         }
       },
       {
@@ -50,8 +50,8 @@
           "name": "XYZ",
           "width": 120,
           "height": 20,
-          "x": 154,
-          "y": 161
+          "x": 153,
+          "y": 157
         }
       }
     ],
