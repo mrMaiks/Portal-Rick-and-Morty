@@ -9,8 +9,8 @@
       "registry_name": "portalgun",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rick_and_morty/item/PortalgunItem.java",
-          "src/main/resources/assets/rick_and_morty/models/item/portalgun.json"
+          "src/main/resources/assets/rick_and_morty/models/item/portalgun.json",
+          "src/main/java/net/mcreator/rick_and_morty/item/PortalgunItem.java"
         ]
       }
     },
@@ -23,9 +23,9 @@
       "registry_name": "portalgui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rick_and_morty/client/gui/PortalguiScreen.java",
           "src/main/java/net/mcreator/rick_and_morty/network/PortalguiButtonMessage.java",
-          "src/main/java/net/mcreator/rick_and_morty/world/inventory/PortalguiMenu.java"
+          "src/main/java/net/mcreator/rick_and_morty/world/inventory/PortalguiMenu.java",
+          "src/main/java/net/mcreator/rick_and_morty/client/gui/PortalguiScreen.java"
         ]
       }
     },
@@ -221,8 +221,8 @@
       "registry_name": "mathematicalcalculations",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rick_and_morty/models/item/mathematicalcalculations.json",
-          "src/main/java/net/mcreator/rick_and_morty/item/MathematicalcalculationsItem.java"
+          "src/main/java/net/mcreator/rick_and_morty/item/MathematicalcalculationsItem.java",
+          "src/main/resources/assets/rick_and_morty/models/item/mathematicalcalculations.json"
         ]
       }
     },
@@ -298,12 +298,12 @@
       "registry_name": "greencrystal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rick_and_morty/world/features/ores/GreencrystalFeature.java",
-          "src/main/resources/assets/rick_and_morty/models/block/greencrystal.json",
+          "src/main/resources/assets/rick_and_morty/models/item/greencrystal.json",
           "src/main/resources/assets/rick_and_morty/blockstates/greencrystal.json",
+          "src/main/resources/assets/rick_and_morty/models/block/greencrystal.json",
           "src/main/resources/data/rick_and_morty/forge/biome_modifier/greencrystal_biome_modifier.json",
-          "src/main/java/net/mcreator/rick_and_morty/block/GreencrystalBlock.java",
-          "src/main/resources/assets/rick_and_morty/models/item/greencrystal.json"
+          "src/main/java/net/mcreator/rick_and_morty/world/features/ores/GreencrystalFeature.java",
+          "src/main/java/net/mcreator/rick_and_morty/block/GreencrystalBlock.java"
         ]
       }
     },
@@ -687,5 +687,5 @@
     "modElementsPackage": "net.mcreator.rick_and_morty",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300224119
+  "mcreatorVersion": 202300336712
 }
